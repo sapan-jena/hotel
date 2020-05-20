@@ -1,0 +1,118 @@
+@media screen and (max-width:1199px){
+    .p2_logo2{
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width:1200px){
+
+}
+/* (page-1-(contacts page) */
+
+.C1{
+    background-color: #b3b3b3;
+}
+.c1_contact{
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    font-size: 55px;
+    line-height: 27px;
+    color: rgb(255,255,255);
+    font-family: "Gilda Display";
+    
+}
+/* (page-1-(blog page) */
+
+.b1{
+    background-color: #b3b3b3;
+    padding-bottom: 1vh;
+}
+.b1_blog{
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    font-size: 6vw;
+    color: #ffffff;
+    font-family: "Gilda Display";
+}
+
+
+/* (page-2) */
+
+.c2{
+    margin-top: -2.5vh; 
+    padding-bottom: 4vh;
+}
+.c2_rw1{
+    padding-top: 6vh;
+}
+.c2_h_drpln{
+    font-family: 'Times New Roman', Times, serif;
+}
+.c2_lorm1{
+    color: #b3b3b3;
+    padding-right: 1.5vw;
+}
+.textbx_1{
+    background-color: #F0F8FF;
+    border: none;
+    padding: 1vw;
+    color: #b3b3b3;
+    width: 17vw;
+}
+.C2_rw_1{
+    color: #b3b3b3;
+    padding-top: 3vh;
+}
+.C2_rw_2{
+    color: #b3b3b3;
+    margin-top: 4vh;
+}
+.textbx_2{
+    width: 37vw;
+    margin-bottom: 4vh;
+    border: 0;
+    color: #b3b3b3;
+    background-color: #F0F8FF;
+    margin-bottom: 2vh;
+    padding: 15px;
+}
+.c2_snd{
+    font-size: 1vw;
+    border: 0;
+    background-color: #c19b76;
+    color: white;
+    margin-top: 1vh;
+    width: 12vw;
+    height: 5vh;
+}
+.c2_snd:hover{
+    background-color: gray;
+}
+.c2_bx1{
+    width: 42.5vw;
+    height: 35vh;
+    background-color: #d3d3d3;
+}
+.c2_con2{
+    padding-top: 7vh;
+    line-height: 6vh;
+}
+.c2_con3{
+    padding-top: 5vh;
+
+}
+.c2_avai_lable{
+    color: #b3b3b3;
+}
+.c2_aven{
+    color: #b3b3b3;
+}
+.c2_hr_1{
+    background-color: black;
+    width: 10%;
+    float: left;
+}
+.c2_phone{
+
+    font-size: 4vw;
+    font-family: 'Times New Roman', Times, serif;
+}

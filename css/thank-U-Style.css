@@ -1,0 +1,195 @@
+/* (page-1) */
+
+.t1{
+    background-image: linear-gradient(0deg, rgba(28,28,28,0.2) 0%, rgba(28,28,28,0.2) 100%);
+    padding-bottom: 1vh;
+    color: white;
+}
+.t1_thanks{
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    font-size: 55px;
+    line-height: 27px;
+    color: rgb(255,255,255);
+    font-family: "Gilda Display";
+    
+}
+.dot{
+    height: 25px;
+    width: 25px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 2vw;
+    margin-bottom: 4vh;
+}
+.dot:hover{
+    background-color: #c19b76;
+}
+.t1_a1{
+    color: white;
+}
+.t1_a1:hover{
+    text-decoration: none;
+    color: white;
+}
+
+/* (page-2) */
+
+.t2_rw1{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.t2_ordtl{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 4vh;
+}
+.t2_name{
+    color: #b3b3b3;
+    font-size: 1.1vw;
+}
+.t2_b_name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1vw;
+}
+.btn_myac{
+    width: 14vw;
+    height: 6vh;
+    font-size: 1vw;
+    border: 0;
+    color: #ffffff;
+    background-color: #c19b76;
+}
+.btn_myac:hover{
+    background-color: gray;
+}
+.t2_bx1{
+    width: 27vw;
+    height: 35vh;
+    background-color: #b3b3b3;
+    background: linear-gradient(#b3b3b3, black);
+}
+.t2_bx2{
+    width: 27vw;
+    height: 61vh;
+    color: #ffffff;
+    background-color: #1c1c1c;
+}
+.t2_p1_res{
+    text-align: center;
+    padding-top: 3vh;
+    font-size: 1.1vw;
+}
+.t2_bx3{
+    width: 27vw;
+    height: 18vh;
+    background-color: #151515;
+    color: #ffffff;
+}
+.t2_300{
+    text-align: center;
+    font-size: 4vw;
+    padding-top: 5%;
+}
+.t2_checkin{
+    text-align: center;
+    font-size: 1.1vw;
+    padding-top: 2vh;
+    color: #c19b76;
+}
+.t2_26{
+    text-align: center;
+    font-size: 4vw;
+    color: #c19b76;
+    font-family: 'Times New Roman', Times, serif;
+}
+.t2_june{
+    text-align: center;
+}
+.t2_mon{
+    text-align: center;
+    color: #b3b3b3;
+}
+.t2_bx4{
+    width: 3vw;
+    height: 30vh;
+    background-color: #151515;
+    margin-left: 2.5vw;
+    margin-top: 1.5vh;
+    line-height: 2.5vw;
+}
+.t2_dollar{
+    font-size: 1.1vw;
+}
+.t2_total{
+    font-size: 1.1vw;
+}
+.t2_bx5{
+    width: 3vw;
+    height: 30vh;
+    background-color: #151515;
+    margin-left: 1vw;
+    margin-right: 2.5vw;
+    margin-top: 1.5vh;
+    line-height: 2.5vw;
+}
+.t2_bx6{
+    width: 3vw;
+    height: 15vh;
+    background-color: #151515;
+    margin-left: 2.5vw;
+    margin-top: 2vh;
+    line-height: 5vh;
+}
+.t2_2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4vw;
+    text-align: center;
+    padding-top: 1.5vh;
+}
+.t2_guest{
+    color: #b3b3b3;
+    text-align: center;
+    font-size: 1vw;
+}
+.t2_bx7{
+    width: 3vw;
+    height: 15vh;
+    background-color: #151515;
+    margin-left: 1vw;
+    margin-right: 2.5vw;
+    margin-top: 2vh;
+    line-height: 5vh;
+}
+.t2_4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4vw;
+    text-align: center;
+    padding-top: 1.5vh;
+}
+.t2_night{
+    color: #b3b3b3;
+    text-align: center;
+    font-size: 1vw;
+}
+
+
+/* (Booking-Page) */
+
+.b2_Addinfo{
+    border: none;
+    background-color: #F5F5F5;
+    color: grey;
+    width: 25vw;
+    height: 6vh;
+    padding: 1vw;
+}
+#t2_request{
+    border: none;
+    background-color: #F5F5F5;
+    color: grey;
+    width: 54vw;
+    height: 20vh;
+    padding: 1vw;
+}

@@ -1,0 +1,33 @@
+/* (page-2) */
+
+.t2_c2_payment{
+    font-family: 'Times New Roman', Times, serif;
+}
+.t2_lor13{
+    color: #b3b3b3;
+    font-size: 1.1vw;
+    margin-top: 3vh;
+}
+.t2_bank_trans{
+    color: black;
+    font-size: 1.1vw;
+}
+.t2_bank_trans:hover{
+    color: black;
+}
+.t2_paypal{
+    color: black;
+    font-size: 1.1vw;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+}
+.t2_paypal:hover{
+    color: black;
+}
+.t2_stripe{
+    color: black;
+    font-size: 1.1vw;
+}
+.t2_stripe:hover{
+    color: black;
+}

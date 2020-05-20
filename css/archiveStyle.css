@@ -1,0 +1,345 @@
+/* (page-1) */
+
+.A1{
+    background-color: #b3b3b3;
+    padding-bottom: 1vh;
+}
+.A1h_11{
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    font-size: 55px;
+    letter-spacing: -4px;
+    line-height: 27px;
+    color: rgb(255,255,255);
+    font-family: "Gilda Display";
+}
+
+/* (page-2) */
+
+.A2{
+    background-color: #1c1c1c;
+    margin-top: -0.6%;
+    height: 70px;
+}
+.A2row_1{
+    padding-top: 18px;
+}
+.A2col_1{
+    padding-left: 26vw;
+}
+.btn{
+    background-color: transparent;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: rgb(135,135,135);
+    font-family: "Roboto";
+    
+}
+.btn:hover{
+    color: #ffffff;
+    border-bottom: 2px solid #797979;
+}
+.dropdown-item{
+    background-color: #b3b3b3;
+    color:  white;
+}
+.A2_a1{
+    color: #797979;
+    letter-spacing: 10px;
+    font-size: 4vh;
+}
+.A2_a1:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* (page-3) */
+
+.A3_bx1{
+    width: 26vw;
+    height: 55vh;
+    background-color: #1c1c1c;
+    color: #ffffff;
+}
+.A3_rw1{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.A3h_1{
+    padding-top: 6vh;
+    font-size: 20px;
+    letter-spacing: -1px;
+    line-height: 27px;
+    color: rgb(255,255,255);
+    font-family: "Gilda Display";
+}
+.a3h6_11{
+    margin-left: 4vw;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: rgb(255,255,255);
+    font-family: "Roboto";
+}
+.a3h6_12{
+    margin-left: 7vw;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: rgb(255,255,255);
+    font-family: "Roboto";
+}
+.a3h6_13{
+    margin-top: 17vh;
+    margin-left: 4vw;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: rgb(255,255,255);
+    font-family: "Roboto";
+}
+.a3h6_14{
+    margin-top: 17vh;
+    margin-left: 9.5vw;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: rgb(255,255,255);
+    font-family: "Roboto";
+}
+.A3_bx2{
+    color: #ffffff;
+    border: 1px solid #f1f1f1;
+    width: 26vw;
+    height: 35vh;
+    background-image: linear-gradient(0deg, rgba(28,28,28,0.5019607843137255) 0%, rgba(28,28,28,0) 100%);
+}
+.A3_p1{
+    color: #ffffff;
+    padding-left: 2vw;
+    padding-top: 31vh;
+    font-size: 1vw;
+    font-family: "Roboto";
+}
+.fa-film{
+    margin-left: 8vw;
+}
+.str1{
+    color: #ffffff;
+}
+.A3_bx3{
+    width: 26vw;
+    height: 55vh;
+    background-color: #ffffff;
+    border: 1px solid #f1f1f1;
+}
+.a3_kb7{
+    padding: 10px;
+}
+.A3_bx3_dv1{
+    color: #797979;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2vw;
+}
+.A3h2_1{
+    font-family: "Gilda Display";
+    color: black;
+}
+.A3_5rev{
+    font-size: 1vw;
+}
+.uc{
+    margin-left: 1.8vw;
+    font-size: 1vw;
+}
+.A3_ucir{
+    font-size: 1vw;
+}
+.A3_25square{
+    font-size: 1vw;
+    margin-left: 1.8vw;
+}
+.lor_1{
+    margin-top: 4vh;
+    line-height: 4vh;
+}
+.A3_bx4{
+    margin-top: 4.8vh;
+    width: 26vw;
+    height: 35vh;
+    border: 1px solid #f1f1f1;
+    background-image: linear-gradient(0deg, rgba(28,28,28,0.5019607843137255) 0%, rgba(28,28,28,0) 100%);
+}
+.A3_btnbook{
+    width: 20vw;
+    height: 6vh;
+    border: 2px solid #c19b75;
+    background-color: transparent;
+    margin-top: -4vh;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: rgb(201,167,135);
+    font-family: "Roboto";
+    font-weight: 800;
+}
+.A3_btnbook:hover{
+    color: #ffffff;
+    background-color: #b3b3b3;
+}
+.icon-background2 {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #c19b75;
+    font-size: 1.5vw;
+}
+
+.fa-info {
+    -webkit-text-fill-color: #c19b75;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #c19b75;
+    font-size: 1vw;
+}
+.A3_sp_1{
+    float: left;
+    font-size: 1vw;
+    letter-spacing: 0.5vw;
+}
+.fa-umbrella{
+    color: rgb(135,135,135);
+}
+.fa-umbrella:hover{
+    text-decoration: none;
+    color: #c19b75;
+}
+.fa-columns{
+    color: rgb(135,135,135);
+}
+.fa-columns:hover{
+    text-decoration: none;
+    color: #c19b75;
+}
+.fa-glass-martini{
+    color: rgb(135,135,135);
+}
+.fa-glass-martini:hover{
+    text-decoration: none;
+    color: #c19b75;
+}
+.fa-utensils{
+    color: rgb(135,135,135);
+}
+.fa-utensils:hover{
+    text-decoration: none;
+    color: #c19b75;
+}
+.fa-patreon{
+    color: rgb(135,135,135);
+}
+.fa-patreon:hover{
+    text-decoration: none;
+    color: #c19b75;
+}
+.A3_info{
+    float: right;
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: rgb(135,135,135);
+    font-family: "Roboto";
+}
+.A3_info:hover{
+    text-decoration: none;
+    color: #c19b75; 
+}
+.A3_bx5{
+    width: 26vw;
+    height: 120vh;
+}
+.a3S_1{
+    font-family: "Gilda Display";
+
+}
+.chk_lbl1{
+    color: rgb(135,135,135);
+}
+.chk_lbl2{
+    color: rgb(135,135,135);
+    margin-left: 3.8vw;
+}
+.chk_lbl3{
+    color: rgb(135,135,135);
+    margin-left: 3vw;
+}
+.chk_lbl4{
+    color: rgb(135,135,135);
+    margin-left: 3vw;
+}
+.btnn{
+    background-color: transparent;
+    color: rgb(135,135,135);
+    border: 0;
+}
+.btnn:hover{
+    color: #c19b75;
+}
+.dropdown-item{
+    background-color: #b3b3b3;
+    color:  #ffffff;
+}
+.adn_1{
+    margin-left: 18vw;
+}
+.adn_2{
+    margin-left: 16vw;
+}
+.A3_rev1{
+    font-family: "Gilda Display";
+}
+.a3_kb1{
+    padding: 10px;
+}
+.a3_kb2:hover{
+    background-color: #c19b75;
+}
+.a3_kb2{
+    padding: 10px;
+    margin-left: 0.5vw;
+}
+.a3_kb1:hover{
+    background-color: #c19b75;
+}
+.Brn_Star{
+    font-family: "Gilda Display";
+}
+.brn_str{
+    color: #878787;
+}
+.no_1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.on_11{
+    padding: 8px 11px 8px 11px;
+    margin-right: 5px;
+    border-radius: 0;
+}
+.on_1:hover{
+    background-color: #c19b75;
+}
+.on_2{
+    padding: 8px 11px 8px 11px;
+    margin-right: 5px;
+    border-radius: 0;
+}
+.on_2:hover{
+    background-color: #c19b75;
+}
+.no_2:hover{
+    text-decoration: none;
+}

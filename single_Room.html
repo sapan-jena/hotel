@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="shortcut icon" href="./images/circle-H.jpg">
+    <title>Single Room</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gilda+Display|Roboto" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/singleRoomStyle.css">
+    <link rel="stylesheet" type="text/css" href="./mediaQueries/media.css">
+</head>
+<body>
+
+<!-- (NavBar-1) -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-first topnav" id="myTopnav">
+            <a href="#" class="in_us">US</a>
+            <a href="#" class="in_us">IT</a>
+            <a href="#" class="in_us">PS</a>
+            <a href="#" class="in_us"><img src="./images/credit-card.png" class="cheksqr" alt="creditcard"> &nbsp;Payment Options</a>
+            <a href="#" class="in_us"><img src="./images/check-square.png" class="cheksqr" alt="check square"> &nbsp;Terms Conditions</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        <!-- </div>
+        <div class="col d-flex justify-content-end topnav" id="myTopnav"> -->
+            <a href="./archive.html" class="in_rev1">Add Your Review</a>
+            <a href="#" class="in_us">
+                <img src="./images/envelope.png" class="enev" alt="envelope">
+                <sup><sup class="tw">2</sup></sup>
+            </a>
+            <a href="./booking.html" class="in_us">My Bookings</a>
+            <a href="" class="in_my" onclick="login()"><img src="./images/default-avatar.png" class="myac" alt="user"> &nbsp;<span class="myac_c">My Account</span><br><span class="myacc">LOG IN</span></a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div> 
+    </div>
+    <script>
+        function login(){
+            alert("Please Login to Your Account !!!");
+        }
+    </script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    </div>
+</div>
+
+<!-- (NavBar-2) -->
+
+<div class="p2">
+    <div class="container">
+        <nav class="navbar navbar-expand-md bg-black navbar-dark">
+            <ul class="nav navbar-nav">
+                <li class="navbar-header">
+                    <span class="navbar-brand d-flex justify-content-start">
+                        <h4 class="p2_logo1">LOGO HOTEL <br> <p class="p2_logo2">LUXURY HOTEL</p></h4>  
+                    </span>
+                </li>
+            </ul>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="nav navbar-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./single.html">Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./single_Room.html">Single Room</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./booking.html">Booking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./blog.html">Our News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+    
+<!-- (page-1) -->
+
+<div class="s_r1">
+    <div class="container">
+        <div class="row sr_spa">
+            <div class="col-9">
+                <a href="" class="s_r_des">DESCRIPTION</a>
+                <a href="" class="s_r_rm">ROOM SERVICES</a>
+                <a href="" class="s_r_rm">EXTRA SERVICES</a>
+                <a href="" class="s_r_rm">GALLERY</a>
+                <a href="" class="s_r_rm">REVIEWS</a>
+            </div>
+            <div class="col-3">
+                <span class="sr_300">300</span><sup class="sr_dol">$</sup><sub class="sr_hol">/ FOR HOLIDAY</sub>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- (page-2) -->
+<div class="s_r2">
+    <div class="container">
+        <p class="s_r2_lux">Luxury Room With Sea View</p>
+        <p class="s_r2_hot">HOTEL LONDON &nbsp;&nbsp;&nbsp;<i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+
+        <div class="row">    
+            <div class="col-8 s_r2_bx1">
+                <span class="s_r2_rev"><kbd>7.5</kbd> 5 REVIEWS</span>
+                <span class="s_r2_glyp"><i class="fas fa-film"></i> <i class="far fa-image"></i></span>
+            </div>
+            <div class="col s_r2_bx2">
+                <div class="t2_bx3">
+                    <p class="s_r_guest">1 Guest</p>
+                    <a href=""><i class="fas fa-chevron-down"></i></a>
+                </div>
+                <div class="row">
+                    <div class="col t2_bx4">
+                        <p class="t2_checkin">CHECK-IN</p>
+                        <p class="t2_26">26</p>
+                        <p class="t2_june"><i>June, 2017</i></p>
+                        <p class="t2_mon">MONDAY</p>
+                    </div> 
+                    <div class="col t2_bx5">
+                        <p class="t2_checkin">CHECK-OUT</p>
+                        <p class="t2_26">28</p>
+                        <p class="t2_june"><i>June, 2017</i></p>
+                        <p class="t2_mon">FRIDAY</p>
+                    </div>
+                </div>
+                <button class="s_book">BOOK NOW</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <div class="row s2_glyphi">
+                    <div class="col-3 s2_glyphi">
+                        <i class="far fa-user-circle c1"></i>
+                        <p>3 GUESTS</p>
+                    </div>
+                    <div class="col-3">
+                        <i class="far fa-plus-square c2"></i>
+                        <p>25 M<sup>2</sup></p>
+                    </div>
+                    <div class="col-3">
+                        <i class="fas fa-bed c3"></i>
+                        <p>30 $ / FOR NIGHT</p>
+                    </div>
+                    <div class="col-3">
+                        <i class="far fa-calendar-alt c4"></i>
+                        <p>WEEK PRICE</p>
+                    </div>
+                </div>
+                <hr>
+                <p class="s2_lorm1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia debitis accusamus similique laborum commodi, voluptate incidunt fugiat neque non provident eius, nemo eligendi dolore? Sequi cumque neque nesciunt molestiae laboriosam tempore incidunt qui saepe voluptatem, ipsa maxime adipisci iure aliquid voluptatibus mollitia dicta, quis nisi cupiditate delectus placeat? Ipsa quaerat harum error dolore dicta reiciendis repudiandae porro a dignissimos, quia aliquid temporibus, dolor doloribus, pariatur magnam adipisci sapiente debitis recusandae.</p>
+                <p class="s2_lorm1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia debitis accusamus similique laborum commodi, voluptate incidunt fugiat neque non provident eius, nemo eligendi dolore? Sequi cumque neque nesciunt molestiae laboriosam tempore incidunt qui saepe voluptatem, ipsa maxime adipisci iure aliquid voluptatibus mollitia dicta, quis nisi cupiditate delectus placeat? Ipsa quaerat harum error dolore dicta reiciendis repudiandae porro a dignissimos, quia aliquid temporibus, dolor doloribus, pariatur magnam adipisci sapiente debitis recusandae.</p>
+                <hr>
+                <p class="s2_romserv">Room Services</p>
+                <div class="row s2_roomser">
+                    <div class="col-4">
+                        <span>
+                            <i class="fas fa-tv"></i> Television <br>
+                            <i class="fas fa-bath"></i> Bathroom <br>
+                            <i class="fas fa-glass-martini"></i> Welcom Drink
+                        </span>
+                    </div>
+                    <div class="col-4">
+                        <i class="fas fa-smoking-ban"></i> No Smoking <br>
+                        <i class="fas fa-bicycle"></i> Bike Rental <br>
+                        <i class="far fa-object-group"></i> Loundry
+                    </div>
+                    <div class="col-4">
+                        <i class="fas fa-umbrella"></i> Private Beach <br>
+                        <i class="fas fa-umbrella"></i> Breakfast Incl. <br>
+                        <i class="fas fa-bed"></i> King Beds
+                       
+                    </div>
+                </div>
+                <hr>
+                <p class="s2_romserv">Arround the Hotel</p>
+                <div class="row">
+                    <div class="col s2_arhot1">Sea View</div>
+                    <div class="col s2_arhot2">Sea View</div>
+                    <div class="col s2_arhot2">Sea View</div>
+                </div>
+            </div>
+            <div class="col">
+                <h4 class="s2_bstroom">Best Rooms</h4>
+                <div class="row s2_blockqt">
+                    <div class="col-4">
+                        <div class="blockquote-box clearfix">
+                            <div class="square pull-left">
+                                <img src="http://placehold.it/60/8e44ad/FFF&text=@" alt="" class="" />
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <h6 class="s2_family">Family Room</h6>
+                        <p class="s2_john">by John Doe on 21/12/2017</p>
+                        <button type="button" class="s2_booknw">BOOK NOW</button>
+                    </div>
+                </div>
+                <div class="row s2_blockqt">
+                    <div class="col-4">
+                        <div class="blockquote-box clearfix">
+                            <div class="square pull-left">
+                                <img src="http://placehold.it/60/8e44ad/FFF&text=@" alt="" class="" />
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <h6 class="s2_family">Family Room</h6>
+                        <p class="s2_john">by John Doe on 21/12/2017</p>
+                        <button type="button" class="s2_booknw">BOOK NOW</button>
+                    </div>
+                </div>
+                <div class="row s2_blockqt">
+                    <div class="col-4">
+                        <div class="blockquote-box clearfix">
+                            <div class="square pull-left">
+                                <img src="http://placehold.it/60/8e44ad/FFF&text=@" alt="" class="" />
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <h6 class="s2_family">Family Room</h6>
+                        <p class="s2_john">by John Doe on 21/12/2017</p>
+                        <button type="button" class="s2_booknw">BOOK NOW</button>
+                    </div>
+                </div>
+                <h4 class="s2_bstsearch">Search</h4>
+                <input type="search" class="s2_search">
+                <h4 class="s2_bstcate">Categories</h4>
+                    <div class="dropdown">
+                        <button type="button" class="btn" data-toggle="dropdown">
+                            <i class="fas fa-angle-right"></i> Luxury Hotels ( 10 )
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">L.H. 1</a>
+                            <a class="dropdown-item" href="#">L.H. 2</a>
+                            <a class="dropdown-item" href="#">L.H. 3</a>
+                            <a class="dropdown-item" href="#">L.H. 4</a>
+                            <a class="dropdown-item" href="#">L.H. 5</a>
+                            <a class="dropdown-item" href="#">L.H. 6</a>
+                            <a class="dropdown-item" href="#">L.H. 7</a>
+                            <a class="dropdown-item" href="#">L.H. 8</a>
+                            <a class="dropdown-item" href="#">L.H. 9</a>
+                            <a class="dropdown-item" href="#">L.H. 10</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button type="button" class="btn" data-toggle="dropdown">
+                            <i class="fas fa-angle-right"></i> Family Residence ( 20 )
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">F.R. 1</a>
+                            <a class="dropdown-item" href="#">F.R. 2</a>
+                            <a class="dropdown-item" href="#">F.R. 3</a>
+                            <a class="dropdown-item" href="#">F.R. 4</a>
+                            <a class="dropdown-item" href="#">F.R. 5</a>
+                            <a class="dropdown-item" href="#">F.R. 6</a>
+                            <a class="dropdown-item" href="#">F.R. 7</a>
+                            <a class="dropdown-item" href="#">F.R. 8</a>
+                            <a class="dropdown-item" href="#">F.R. 9</a>
+                            <a class="dropdown-item" href="#">-------</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button type="button" class="btn" data-toggle="dropdown">
+                            <i class="fas fa-angle-right"></i> Relax Villas ( 12 )
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">R.V. 1</a>
+                            <a class="dropdown-item" href="#">R.V. 2</a>
+                            <a class="dropdown-item" href="#">R.V. 3</a>
+                            <a class="dropdown-item" href="#">R.V. 4</a>
+                            <a class="dropdown-item" href="#">R.V. 5</a>
+                            <a class="dropdown-item" href="#">R.V. 6</a>
+                            <a class="dropdown-item" href="#">R.V. 7</a>
+                            <a class="dropdown-item" href="#">R.V. 8</a>
+                            <a class="dropdown-item" href="#">R.V. 9</a>
+                            <a class="dropdown-item" href="#">R.V. 10</a>
+                            <a class="dropdown-item" href="#">R.V. 11</a>
+                            <a class="dropdown-item" href="#">R.V. 12</a>
+                        </div>
+                </div>
+
+                <h4 class="s2_bstsearch">Our Branches</h4>
+                <div class="row s2_blockqt">
+                    <div class="col-4">
+                        <div class="blockquote-box clearfix">
+                            <div class="square pull-left">
+                                <img src="http://placehold.it/60/8e44ad/FFF&text=@" alt="" class="" />
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <h6 class="s2_family">Hotel England London</h6>
+                        <p class="s2_john">by John Doe on 21/12/2017</p>
+                        <i class="fas fa-star b_star1"></i><i class="fas fa-star b_star1"></i><i class="fas fa-star b_star1"></i><i class="fas fa-star b_star1"></i><i class="fas fa-star b_star1"></i>
+                    </div>
+                </div>
+                <div class="row s2_blockqt">
+                    <div class="col-4">
+                        <div class="blockquote-box clearfix">
+                            <div class="square pull-left">
+                                <img src="http://placehold.it/60/8e44ad/FFF&text=@" alt="" class="" />
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <h6 class="s2_family">Hotel England London</h6>
+                        <p class="s2_john">by John Doe on 21/12/2017</p>
+                        <i class="fas fa-star b_star1"></i><i class="fas fa-star b_star1"></i><i class="fas fa-star b_star1"></i><i class="fas fa-star b_star1"></i>
+                    </div>
+                </div>
+                <div class="row s2_blockqt">
+                    <div class="col-4">
+                        <div class="blockquote-box clearfix">
+                            <div class="square pull-left">
+                                <img src="http://placehold.it/60/8e44ad/FFF&text=@" alt="" class="" />
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col-8">
+                        <h6 class="s2_family">Hotel England London</h6>
+                        <p class="s2_john">by John Doe on 21/12/2017</p>
+                        <i class="fas fa-star b_star1"></i><i class="fas fa-star b_star1"></i><i class="fas fa-star b_star1"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- (page-3) -->
+
+<div class="s_r3">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="s_r2_lux">Reviews</p>
+                <hr class="s4_hr1">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8">
+              <p class="s4_jess"><span class="dott">5</span>  Jess Doe</p>
+              <p class="s4_awesome"><b> Awesome Hotel</b></p><kbd class="s4_kb1">7.5</kbd>
+              <p class="s4_lorm1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, ullam debitis! Odio fugiat corporis possimus autem quidem numquam praesentium amet vitae veritatis quisquam doloribus non.</p>
+              <a href="" class="s4_full">FULL INFO <i class="fas fa-angle-down"></i></a>
+              <hr>
+              <p class="s4_jess"><span class="dott">5</span>  Jess Doe</p>
+              <p class="s4_awesome"><b> Awesome Hotel</b></p><kbd class="s4_kb1">7.5</kbd>
+              <p class="s4_lorm1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, ullam debitis! Odio fugiat corporis possimus autem quidem numquam praesentium amet vitae veritatis quisquam doloribus non.</p>
+              <a href="" class="s4_full">FULL INFO <i class="fas fa-angle-down"></i></a>
+              <br>
+              <button type="button" class="s3_showmor">SHOW MORE</button>
+            </div>
+
+            <div class="col-sm-4">
+                <section class="s3_bx1">
+                    <p class="s3_seven">7.5</p>
+                    <p class="s3_rating">3 RATINGS</p>
+                </section>
+                <section class="s3_bx2">
+                    <div class="row">
+                        <div class="col-2 s3_loc">
+                            <p>Location</p>
+                            <p>Rooms</p>
+                            <p>Services</p>
+                            <p>Clean</p>
+                            <p>Value</p>
+                        </div>
+                        <div class="col s3_progress">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%"></div>
+                            </div>
+                            <br>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:60%"></div>
+                            </div>
+                            <br>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:55%"></div>
+                            </div>
+                            <br>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:80%"></div>
+                            </div>
+                            <br>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:45%"></div>
+                            </div>
+                        </div>
+                        <div class="col-2 s3_ratng">
+                            <p>9.5</p>
+                            <p>6.0</p>
+                            <p>5.5</p>
+                            <p>8.0</p>
+                            <p>4.5</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- (page-4) -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <p class="s_r2_lux">Similar Rooms</p>
+            <hr class="s4_hr1">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="A3_bx2">
+                <span>
+                    <p class="A3_p1">HOTEL LONDON <i class="fa fa-star str1"></i><i class="fa fa-star str1"></i><i class="fa fa-star str1"></i>
+                        <a href=""><i class="fas fa-film str1"></i></a>&nbsp;&nbsp;&nbsp;
+                        <a href=""><i class="far fa-image str1"></i></a>
+                    </p>
+                </span> 
+            </div>
+            <div class="A3_bx3">
+                <div class="A3_bx3_dv1">
+                    <h2 class="A3h2_1">Family Room</h2>
+                    <p class="lor_1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet cumque.</p>
+                    <br>
+                    <button type="button" class="A3_btnbook">BOOK NOW</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="A3_bx4">
+                <span>
+                    <p class="A3_p1">HOTEL LONDON <i class="fa fa-star str1"></i><i class="fa fa-star str1"></i><i class="fa fa-star str1"></i>
+                        <a href=""><i class="fas fa-film str1"></i></a>&nbsp;&nbsp;&nbsp;
+                        <a href=""><i class="far fa-image str1"></i></a>
+                    </p>
+                </span> 
+            </div>
+            <div class="A3_bx5">
+                <div class="A3_bx3_dv1">
+                    <h2 class="A3h2_1">Family Room</h2>
+                    <p class="lor_1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet cumque.</p>
+                    <br>
+                    <button type="button" class="A3_btnbook">BOOK NOW</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="A3_bx4">
+                <span>
+                    <p class="A3_p1">HOTEL LONDON <i class="fa fa-star str1"></i><i class="fa fa-star str1"></i><i class="fa fa-star str1"></i>
+                        <a href=""><i class="fas fa-film str1"></i></a>&nbsp;&nbsp;&nbsp;
+                        <a href=""><i class="far fa-image str1"></i></a>
+                    </p>
+                </span> 
+            </div>
+            <div class="A3_bx5">
+                <div class="A3_bx3_dv1">
+                    <h2 class="A3h2_1">Family Room</h2>
+                    <p class="lor_1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet cumque.</p>
+                    <br>
+                    <button type="button" class="A3_btnbook">BOOK NOW</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- (page-5) -->
+
+<div class="p9">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="p9_cl1">
+                    <h3 class="p9h_3">Current Weather</h3>
+                    <p class="p9h_1">NEW YORK, UNITED STATES</p>
+                    <img src="./images/sun.png" alt="sun" class="sun1">&nbsp;&nbsp;&nbsp;<span class="six_t">16</span>
+                    <sup><sup class="deg">&nbsp; &#x2103;</sup></sup>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p9_cl1">
+                    <h3 class="p9h_3">Connect With Us</h3>
+                    <p class="p9h_1">SOCIAL MEDIA CHANNELS</p>
+                    <span class="p9hs_1">
+                        <a href="" class="fab fa-instagram"></a>
+                        <a href="" class="fab fa-twitter"></a>
+                        <a href="" class="fab fa-facebook-f"></a>
+                        <a href="" class="fab fa-pinterest-p"></a>
+                        <a href="" class="fab fa-youtube"></a>
+                    </span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p9_cl1">
+                    <h3 class="p9h_3">Newsletter</h3>
+                    <p class="p9h_1">SIGN UP FOR SPECIAL OFFERS</p>
+                    <span>
+                        <input type="text" placeholder="Email" class="p9_tex" />
+                        <button type="button" class="p9_btnsearch">SEARCH</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- (page-6) -->
+
+<div class="p10">
+    <div class="container">
+        <footer>
+            <div class="row">
+                <div class="col-md-8">
+                    <span class="p10_sp1">
+                        <a href="./index.html" class="p10_hom_1">Home</a>
+                        <a href="./about.html" class="p10_hom_1">About Us</a>
+                        <a href="./archive.html" class="p10_hom_1">Services</a>
+                        <a href="./booking.html" class="p10_hom_1">Booking</a>
+                        <a href="./contact.html" class="p10_hom_1">Contact</a>
+                    </span>
+                </div>
+                <div class="col p10_bx1"></div>
+                <div class="col p10_bx2"></div>
+                <div class="col p10_bx2"></div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>

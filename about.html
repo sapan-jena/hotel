@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="shortcut icon" href="./images/circle-H.jpg">
+    <title>About US</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gilda+Display|Roboto" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/aboutStyle.css">
+    <link rel="stylesheet" type="text/css" href="./mediaQueries/media.css">
+</head>
+<body>
+
+<!-- (NavBar-1) -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-first topnav" id="myTopnav">
+            <a href="#" class="in_us">US</a>
+            <a href="#" class="in_us">IT</a>
+            <a href="#" class="in_us">PS</a>
+            <a href="#" class="in_us"><img src="./images/credit-card.png" class="cheksqr" alt="creditcard"> &nbsp;Payment Options</a>
+            <a href="#" class="in_us"><img src="./images/check-square.png" class="cheksqr" alt="check square"> &nbsp;Terms Conditions</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        <!-- </div>
+        <div class="col d-flex justify-content-end topnav" id="myTopnav"> -->
+            <a href="archive.html" class="in_rev1">Add Your Review</a>
+            <a href="#" class="in_us">
+                <img src="./images/envelope.png" class="enev" alt="envelope">
+                <sup><sup class="tw">2</sup></sup>
+            </a>
+            <a href="booking.html" class="in_us">My Bookings</a>
+            <a href="" class="in_my" onclick="login()"><img src="./images/default-avatar.png" class="myac" alt="user"> &nbsp;<span class="myac_c">My Account</span><br><span class="myacc">LOG IN</span></a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div> 
+    </div>
+    <script>
+        function login(){
+            alert("Please Login to Your Account !!!");
+        }
+    </script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    </div>
+</div>
+
+<!-- (NavBar-2) -->
+
+<div class="p2">
+    <div class="container">
+        <nav class="navbar navbar-expand-md bg-black navbar-dark">
+            <ul class="nav navbar-nav">
+                <li class="navbar-header">
+                    <span class="navbar-brand d-flex justify-content-start">
+                        <h4 class="p2_logo1">LOGO HOTEL <br> <p class="p2_logo2">LUXURY HOTEL</p></h4>  
+                    </span>
+                </li>
+            </ul>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="nav navbar-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./single.html">Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./single_Room.html">Single Room</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./booking.html">Booking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./blog.html">Our News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+    
+<!-- (page-1) -->
+
+<div class="C1">
+    <div class="container">
+        <p class="c1_contact text-center">ABOUT US<p/>
+    </div>
+</div>
+
+
+<!-- (page-2) -->
+
+<div class="p9">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="p9_cl1">
+                    <h3 class="p9h_3">Current Weather</h3>
+                    <p class="p9h_1">NEW YORK, UNITED STATES</p>
+                    <img src="./images/sun.png" alt="sun" class="sun1">&nbsp;&nbsp;&nbsp;<span class="six_t">16</span>
+                    <sup><sup class="deg">&nbsp; &#x2103;</sup></sup>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p9_cl1">
+                    <h3 class="p9h_3">Connect With Us</h3>
+                    <p class="p9h_1">SOCIAL MEDIA CHANNELS</p>
+                    <span class="p9hs_1">
+                        <a href="" class="fab fa-instagram"></a>
+                        <a href="" class="fab fa-twitter"></a>
+                        <a href="" class="fab fa-facebook-f"></a>
+                        <a href="" class="fab fa-pinterest-p"></a>
+                        <a href="" class="fab fa-youtube"></a>
+                    </span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p9_cl1">
+                    <h3 class="p9h_3">Newsletter</h3>
+                    <p class="p9h_1">SIGN UP FOR SPECIAL OFFERS</p>
+                    <span>
+                        <input type="text" placeholder="Email" class="p9_tex" />
+                        <button type="button" class="p9_btnsearch">SEARCH</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- (page-3) -->
+
+<div class="p10">
+    <div class="container">
+        <footer>
+            <div class="row">
+                <div class="col-md-8">
+                    <span class="p10_sp1">
+                        <a href="./index.html" class="p10_hom_1">Home</a>
+                        <a href="./about.html" class="p10_hom_1">About Us</a>
+                        <a href="./archive.html" class="p10_hom_1">Services</a>
+                        <a href="./booking.html" class="p10_hom_1">Booking</a>
+                        <a href="./contact.html" class="p10_hom_1">Contact</a>
+                    </span>
+                </div>
+                <div class="col p10_bx1"></div>
+                <div class="col p10_bx2"></div>
+                <div class="col p10_bx2"></div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>

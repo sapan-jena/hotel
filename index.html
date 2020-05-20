@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="shortcut icon" href="./images/circle-H.jpg">
+    <title>Hotel Website</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gilda+Display" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./mediaQueries/media.css">
+</head>
+<body>
+
+<!-- (NavBar-1) -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-first topnav" id="myTopnav">
+            <a href="#" class="in_us">US</a>
+            <a href="#" class="in_us">IT</a>
+            <a href="#" class="in_us">PS</a>
+            <a href="#" class="in_us"><img src="./images/credit-card.png" class="cheksqr" alt="creditcard"> &nbsp;Payment Options</a>
+            <a href="#" class="in_us"><img src="./images/check-square.png" class="cheksqr" alt="check square"> &nbsp;Terms Conditions</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        <!-- </div>
+        <div class="col d-flex justify-content-end topnav" id="myTopnav"> -->
+            <a href="./archive.html" class="in_rev1">Add Your Review</a>
+            <a href="#" class="in_us">
+                <img src="./images/envelope.png" class="enev" alt="envelope">
+                <sup><sup class="tw">2</sup></sup>
+            </a>
+            <a href="./booking.html" class="in_us">My Bookings</a>
+            <a href="" class="in_my" onclick="login()"><img src="./images/default-avatar.png" class="myac" alt="user"> &nbsp;<span class="myac_c">My Account</span><br><span class="myacc">LOG IN</span></a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div> 
+    </div>
+    <script>
+        function login(){
+            alert("Please Login to Your Account !!!");
+        }
+    </script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    </div>
+</div>
+
+<!-- (NavBar-2) -->
+
+<div class="p2">
+    <div class="container">
+        <nav class="navbar navbar-expand-md bg-black navbar-dark">
+            <ul class="nav navbar-nav">
+                <li class="navbar-header">
+                    <span class="navbar-brand d-flex justify-content-start">
+                        <h4 class="p2_logo1">LOGO HOTEL <br> <p class="p2_logo2">LUXURY HOTEL</p></h4>  
+                    </span>
+                </li>
+            </ul>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="nav navbar-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./single.html">Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./single_Room.html">Single Room</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./booking.html">Booking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./blog.html">Our News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<!-- (page-1) -->
+
+<div class="p3">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p class="p3h_1">LUXURY HOTEL & BEST RESORT</p>
+                <hr class="p3h_r1">
+                <p class="p3h_2">ENJOY A LUXURY <br> EXPERIENCE</p>
+                <button type="button" class="p3b_1">ROOMS E SUITES</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-9 p3_date1">
+                        <div class="row">
+                            <div class="col">
+                                <p class="c_in">CHECK-IN</p>
+                                <p class="two_6">26
+                                    <sup><sup class="ju_n">Jun</sup></sup>
+                                        <br>
+                                        <sup><sup><sup><button type="button" class="dwn_arw1">
+                                            <img src="./images/down-arrow.png" alt="down arrow">
+                                        </button></sup></sup></sup>
+                                    
+                                </p>
+                            </div>
+                            <div class="col">
+                                <p class="c_out">CHECK-OUT</p>
+                                <p class="two_8">28
+                                    <sup><sup class="ju_n">Jun</sup></sup>
+                                        <br>
+                                        <sup><sup><sup><button type="button" class="dwn_arw1">
+                                            <img src="./images/down-arrow.png" alt="down arrow">
+                                        </button></sup></sup></sup>
+                                    
+                                </p>
+                                
+                            </div>
+                            <div class="col">
+                                <p class="c_gust">GUESTS</p>
+                                    <p class="on_1">1
+                                        <sup><sup class="ju_n">
+                                            <button type="button" class="up_arw1">
+                                                <img src="./images/up-arrow.png" alt="up arrow">
+                                            </button>
+                                        </sup></sup>
+                                        <br>
+                                        <sup><sup><sup><sup><button type="button" class="dwn_arw2">
+                                            <img src="./images/down-arrow.png" alt="down arrow">
+                                        </button></sup></sup></sup></sup>
+                                        
+                                    </p>
+                                
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="col-3 p3_date2">
+                        <a href="" class="a_avl"><p class="chke_avail">CHECK<br>AVAILABILITY</p></a>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+</div>
+
+<!-- (page-2) -->
+
+<div class="p4">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p class="p4h_1">HOTEL BAYVIEW &nbsp; 
+                    <span class="star1">
+                        <img src="./images/icon-star-full.png" alt="star">&nbsp;
+                        <img src="./images/icon-star-full.png" alt="star">&nbsp;
+                        <img src="./images/icon-star-full.png" alt="star">
+                    </span>
+                </p>
+                <h1 class="p2_h1">Pearl of the Adriatic</h1>
+                <p class="p4_p1">Vivamus volutpat eros pulvinar velit laoreet, sit amet <br> egestas erat dignissim. Sed quis rutrum tellus, sit amet <br> viverra felis. Cras sagittis sem sit amet urna feugiat <br> rutrum. Nam nulla ipsum, venenatis malesuada felis.</p>
+                <button type="button" class="p4_btn1">ABOUT US</button>
+            </div>
+            <div class="col">
+                <div class="row">
+                    <div class="col box1"></div>
+                    <div class="col box2"></div>
+                    <div class="col box3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- (page-3) -->
+
+<div class="d3">
+    <div class="container">
+        <h6 class="d3h_1">LUXURY HOTEL</h6>
+        <hr class="d3h_r">
+        <p class="d3p_1">Best Rooms</p>
+        <div class="row">
+            <div class="col-md-6 bx1">
+                <span class="float-left sp1">
+                    <span class="htl_lod1">HOTEL LONDON</span>&nbsp;&nbsp;  
+                    <img src="./images/star-full-white.png" alt="star">&nbsp;
+                    <img src="./images/star-full-white.png" alt="star">&nbsp;
+                    <img src="./images/star-full-white.png" alt="star">
+                </span>                
+                <span class="float-right vdplay0">
+                    <span><img src="./images/logo2.png" alt="videoplayer" class="vdplay1"></span>
+                    <span><img src="./images/logo1.png" alt="image" class="vdplay2"></span>
+                </span>    
+            </div>
+            <div class="col bx2">
+                <span class="float-left sp1">
+                    <span class="htl_lod1">HOTEL LONDON</span>&nbsp;&nbsp;
+                    <img src="./images/star-full-white.png" alt="star">&nbsp;
+                    <img src="./images/star-full-white.png" alt="star">&nbsp;
+                    <img src="./images/star-full-white.png" alt="star">
+                </span>
+            </div>
+            <div class="col bx3">
+                <span class="float-left sp1">
+                    <span class="htl_lod1">HOTEL LONDON</span>&nbsp;&nbsp;
+                    <img src="./images/star-full-white.png" alt="star">&nbsp;
+                    <img src="./images/star-full-white.png" alt="star">&nbsp;
+                    <img src="./images/star-full-white.png" alt="star">
+                </span>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-6 bx4 float-left">
+                <p class="p3_fr">Family Room</p>
+                <span>
+                    <kbd class="kb_1">7.5</kbd>
+                    <span class="kb_2">5  REVIEWS</span>
+                    <img src="./images/010-user.png" alt="user" class="uc2"><span class="gst3"> 3 GUESTS</span>
+                    <img src="./images/009-plan.png" alt="user" class="uc_2"><span class="gst3"> M<sup>2</sup> </span>
+                </span>
+
+                <p class="p3l_2">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis. Blandit vel sapien vitae.</p>
+                <button type="button" class="d3_btn">BOOK NOW FROM 30$</button>
+            </div>
+            <div class="col bx5">
+                <span class="float-left sp2">
+                    <span class="htl_lod1">HOTEL LONDON</span>&nbsp;&nbsp;
+                    <img src="./images/star-full-white.png" alt="star">&nbsp;
+                    <img src="./images/star-full-white.png" alt="star">&nbsp;
+                    <img src="./images/star-full-white.png" alt="star">
+                </span>
+            </div>
+            <div class="col bx6">
+                <span class="float-left sp2">
+                    <span class="htl_lod1">HOTEL LONDON</span>&nbsp;&nbsp;
+                    <img src="./images/star-full-white.png" alt="star">&nbsp;
+                    <img src="./images/star-full-white.png" alt="star">&nbsp;
+                    <img src="./images/star-full-white.png" alt="star">
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- (page-4) -->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col p4_bx1"></div>
+                <div class="col p4_bx2"></div>
+            </div>
+            <div class="row">
+                <div class="col p4_bx3"></div>
+                <div class="col p4_bx4"></div>
+            </div>
+        </div>
+        <div class="col-md-6 d4_cl1">
+          <p class="d4_p1">LUXURY HOTEL & BEST RESORT</p>
+          <span class="d4_p2">Pearl of the<br><span class="d4_p3">Adriatic</span></span>
+          <div class="para1">
+            <p class="d4_p4">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis. Blandit vel sapien vitae, condimentum ultricies magna et orci ut et lobortis, Phasellus enim
+                <br>
+            Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. Quisque euismod orci ut et lobortis. Blandit vel sapien vitae, condimentum ultricies magna et orci ut et lobortis, Phasellus enim</p>
+          </div>
+          <button type="button" class="d4_btn1"><b>CHECK ALL PACKAGES</b></button>
+        </div>
+    </div>
+</div>
+
+<!-- (page-5) -->
+
+<div class="container">
+    <p class="p5_p1">Phasellus enim libero, blandit vel sapien vitae, condimentum <br> ultricies magna et. Best services orci ut et lobortis. Blandit vel sapien <br> vitae, condimentum</p>
+</div>
+
+<!-- (page-6) -->
+
+<div class="p6">
+    <div class="container">
+        <div class="row">
+            <div class="col p6_bx1">
+                <div id="demo" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                    </ul>
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <h5 class="p6_h51">WELLNESS</h5>
+                            <hr class="p6_hr1">
+                            <h1 class="p6_h52">Spa and Beauty</h1>
+                            <p class="p6_p1">Phasellus enim libero, blandit vel sapien vitae,
+                                <br> condimentum ultricies magna et. Quisque euismod
+                                <br> orci ut et lobortis. Phasellus enim libero, blandit.</p>
+                            <button type="button" class="p6_bt1">READ MORE</button>
+                        </div>
+                        <div class="carousel-item">
+                            <h5 class="p6_h51">RELAX</h5>
+                            <hr class="p6_hr1">
+                            <h1 class="p6_h52">Relax and Enjoy</h1>
+                            <p class="p6_p1">Phasellus enim libero, blandit vel sapien vitae,
+                                <br> condimentum ultricies magna et. Quisque euismod
+                                <br> orci ut et lobortis. Phasellus enim libero, blandit.</p>
+                            <button type="button" class="p6_bt1">READ MORE</button>
+                        </div>
+                        <div class="carousel-item">
+                            <h5 class="p6_h51">PHYSIQUE</h5>
+                            <hr class="p6_hr1">
+                            <h1 class="p6_h52">Swimming and Gym</h1>
+                            <p class="p6_p1">Phasellus enim libero, blandit vel sapien vitae,
+                                <br> condimentum ultricies magna et. Quisque euismod
+                                <br> orci ut et lobortis. Phasellus enim libero, blandit.</p>
+                            <button type="button" class="p6_bt1">READ MORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col p6_bx2"></div>
+        </div>
+        <div class="row">
+            <div class="col p6_bx3"></div>
+            <div class="col p6_bx4">
+                    <div id="demo2" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#demo2" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo2" data-slide-to="1"></li>
+                            <li data-target="#demo2" data-slide-to="2"></li>
+                        </ul>
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <h5 class="p6_h51">WEDDIGN</h5>
+                                <hr class="p6_hr1">
+                                <h1 class="p6_h52">Luxury Location</h1>
+                                <p class="p6_p1">Phasellus enim libero, blandit vel sapien vitae,
+                                    <br> condimentum ultricies magna et. Quisque euismod
+                                    <br> orci ut et lobortis. Phasellus enim libero, blandit.</p>
+                                <button type="button" class="p6_bt1">READ MORE</button>
+                            </div>
+                            <div class="carousel-item">
+                                <h5 class="p6_h51">RELAX</h5>
+                                <hr class="p6_hr1">
+                                <h1 class="p6_h52">Relax and Enjoy</h1>
+                                <p class="p6_p1">Phasellus enim libero, blandit vel sapien vitae,
+                                    <br> condimentum ultricies magna et. Quisque euismod
+                                    <br> orci ut et lobortis. Phasellus enim libero, blandit.</p>
+                                <button type="button" class="p6_bt1">READ MORE</button>
+                            </div>
+                            <div class="carousel-item">
+                                <h5 class="p6_h51">PHYSIQUE</h5>
+                                <hr class="p6_hr1">
+                                <h1 class="p6_h52">Swimming and Gym</h1>
+                                <p class="p6_p1">Phasellus enim libero, blandit vel sapien vitae,
+                                    <br> condimentum ultricies magna et. Quisque euismod
+                                    <br> orci ut et lobortis. Phasellus enim libero, blandit.</p>
+                                <button type="button" class="p6_bt1">READ MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+<!-- (page-7) -->
+
+<div class="p7">
+    <div class="container">
+        <div class="rw1">
+            <h1 class="p7h_1">Relax and Enjoy<br>the Wellness </h1>
+            <p class="p7p_1">LUXURY HOTEL & BEST RESORT</p>
+            <a href="#" class="cir1"><img src="./images/play-button.png" alt="video play" class="vd1"></a>
+        </div>
+    </div>
+</div>
+
+<!-- (page-8) -->
+
+<div class="p8">
+    <div class="container">
+        <p class="p8h_1">HOTEL NEWS</p>
+        <hr class="p8h_2">
+        <h1 class="p8h_3">Our Blog</h1>
+        
+        <div class="row p8_rw1_1">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <div class="row p8_bx1"></div>
+                <div class="row p8_bx2">
+                    <div class="p8_dv1"> 
+                        <h6 class="lux1">LUXURY HOTEL</h6>
+                        <hr class="d8hr_1">
+                        <h2 class="d8h_1">Fish Dinner</h2>
+                        <p class="p8p_1">Phasellus enim libero, blandit vel sapien <br> vitae, condimentum ultricies magna et. <br> Quisque euismod orci ut et lobortis.</p>
+                        <button type="button" class="p8_btn1">READ MORE</button>
+                    </div>
+                </div>
+                <div class="row p8_bx3">
+                   <a href="" class="p8s_1"><img src="./images/link.png" alt="link" class="link1">&nbsp;&nbsp; Check New Events</a> 
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 p8_cl1">
+                <div class="row p8_bx4">
+                    <div class="p8rw_2">
+                        <h2 class="p8h2_1">Follow Adriatic <br> Luxury Hotels</h2>
+                        <hr class="p8hr1_1">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p class="fas fa-quote-right">&nbsp;&nbsp;<span class="p8p1_1">JOHN DOE</span></p>
+                    </div>
+                </div>
+                <div class="row p8_bx5"></div>
+                <div class="row p8_bx6">
+                    <div class="p8_dv1"> 
+                        <h6 class="lux1">LUXURY HOTEL</h6>
+                        <hr class="d8hr_1">
+                        <h2 class="d8h_1">Around us</h2>
+                        <p class="p8p_1">Phasellus enim libero, blandit vel sapien
+                            <br> vitae, condimentum ultricies magna et.
+                            <br> Quisque euismod orci ut et lobortis.</p>
+                        <button type="button" class="p8_btn1">READ MORE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <div class="row p8_bx7">
+                    <div class="p8bx_7">
+                        <h6 class="new1">NEWS</h6>
+                        <hr class="d8hr_1_7">
+                        <h2 class="d8_rez1">Relax Zone</h2>
+                        <a href="" class="p8a_1_1">READ MORE &nbsp; <img src="./images/right-arrow.png" alt="right arrow"></a>
+                    </div>
+                </div>
+                <div class="row p8_bx8">
+                    <div class="p8bx_7_1">
+                        <h6 class="new1">NEWS</h6>
+                        <hr class="d8hr_1_7">
+                        <h2 class="d8_rez1">Relax Zone</h2>
+                        <a href="" class="p8a_1_1">READ MORE &nbsp; <img src="./images/right-arrow.png" alt="right arrow"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- (page-9) -->
+
+<div class="p9">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="p9_cl1">
+                    <h3 class="p9h_3">Current Weather</h3>
+                    <p class="p9h_1">NEW YORK, UNITED STATES</p>
+                    <img src="./images/sun.png" alt="sun" class="sun1">&nbsp;&nbsp;&nbsp;<span class="six_t">16</span>
+                    <sup><sup class="deg">&nbsp; &#x2103;</sup></sup>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p9_cl1">
+                    <h3 class="p9h_3">Connect With Us</h3>
+                    <p class="p9h_1">SOCIAL MEDIA CHANNELS</p>
+                    <span class="p9hs_1">
+                        <a href="" class="fab fa-instagram"></a>
+                        <a href="" class="fab fa-twitter"></a>
+                        <a href="" class="fab fa-facebook-f"></a>
+                        <a href="" class="fab fa-pinterest-p"></a>
+                        <a href="" class="fab fa-youtube"></a>
+                    </span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p9_cl1">
+                    <h3 class="p9h_3">Newsletter</h3>
+                    <p class="p9h_1">SIGN UP FOR SPECIAL OFFERS</p>
+                    <span>
+                        <input type="text" placeholder="Email" class="p9_tex" />
+                        <button type="button" class="p9_btnsearch">SEARCH</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- (page-10) -->
+
+<div class="p10">
+    <div class="container">
+        <footer>
+            <div class="row">
+                <div class="col-md-8">
+                    <span class="p10_sp1">
+                        <a href="./index.html" class="p10_hom_1">Home</a>
+                        <a href="./about.html" class="p10_hom_1">About Us</a>
+                        <a href="./archive.html" class="p10_hom_1">Services</a>
+                        <a href="./booking.html" class="p10_hom_1">Booking</a>
+                        <a href="./contact.html" class="p10_hom_1">Contact</a>
+                    </span>
+                </div>
+                <div class="col p10_bx1"></div>
+                <div class="col p10_bx2"></div>
+                <div class="col p10_bx2"></div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
